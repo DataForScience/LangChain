@@ -52,6 +52,61 @@ In this course, students will get an in-depth view of the structure of LangChain
 - Tool Calling Agents
 - Streaming
 
+## Repository Contents
+
+### Notebooks (webinar progression)
+- `1. Generative Models.ipynb` - direct OpenAI usage, HuggingFace pipelines, and model basics
+- `2. LangChain.ipynb` - LCEL chains, prompts, tools, SQL, and message history
+- `3. Information Processing.ipynb` - summarization, extraction, and text splitting workflows
+- `4. ChatBots.ipynb` - retrieval, vector stores, and chatbot pipeline construction
+- `5. Prompt Engineering.ipynb` - zero-shot, few-shot, and chain-of-thought prompting
+- `6. LangGraph.ipynb` - graph-based agents, state, cycles, and streaming
+
+
+### Slides
+- `slides/LangChain.pdf`
+
+### Data and assets
+- `data/Northwind_small.sqlite`
+- `data/trump.csv`
+- `data/pg43548-h.zip`
+- `images/` (generated output images)
+- `d4sci.mplstyle` (custom notebook plotting style)
+
+## Environment Setup
+
+### Requirements
+- Python `>=3.13`
+- `uv` (recommended) or `pip`
+
+### Install dependencies (uv)
+```bash
+uv sync
+```
+
+### Install dependencies (pip fallback)
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Run notebooks (from project root)
+```bash
+jupyter lab
+```
+
+## Core Dependencies
+
+Key libraries used in this repo include:
+- `langchain`, `langchain-core`, `langchain-community`
+- `langchain-openai`, `langchain-anthropic`, `langchain-huggingface`
+- `langgraph`
+- `chromadb`, `sentence-transformers`
+- `transformers`, `torch`
+- `jupyter`, `pandas`, `matplotlib`
+- `duckduckgo-search`
+
 ## Author
 
 <table border="0">
