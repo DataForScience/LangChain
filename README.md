@@ -45,6 +45,12 @@ In this course, students will get an in-depth view of the structure of LangChain
 - Understanding Chain of Thought prompts
 - Developing Tree of Thought prompts
 
+### 6. LangGraph
+- Chains vs Graphs
+- State
+- Cycles
+- Tool Calling Agents
+- Streaming
 
 ## Author
 
